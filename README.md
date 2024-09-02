@@ -1,4 +1,5 @@
 # Raspberry Fan Control
+Optionally, you can download **_'tmon.py'_**, which is only used for monitoring the temperature.
 
 ### Download script
 We'll use **_'curl -O'_** so we can overwrite if the file already exists.
