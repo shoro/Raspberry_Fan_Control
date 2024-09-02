@@ -5,7 +5,7 @@
 ### Download script
 We'll use **_'curl -O'_** so we can overwrite if the file already exists.
 ```
-curl -O  https://github.com/shoro/Raspberry_Fan_Control/blob/main/tfan.py
+curl -O  [https://github.com/shoro/Raspberry_Fan_Control/blob/main/tfan.py](https://github.com/shoro/Raspberry_Fan_Control/blob/a08dd769878f7c239042e99f400c950e42139c51/tfan.py)
 ```
 
 ### Edit script
