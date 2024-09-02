@@ -6,15 +6,15 @@ import sys
 import os
 import RPi.GPIO as GPIO
 
-# GPIO pin configuration
+# Configuration
 FAN_PIN = 14  # GPIO pin connected to the relay or transistor controlling the fan
-TEMP_ON = 60.0
+TEMP_ON = 60.0 
 TEMP_OFF = 50.0
 
 def setup_gpio():
     GPIO.setmode(GPIO.BCM)
     GPIO.setup(FAN_PIN, GPIO.OUT)
-    GPIO.output(FAN_PIN, GPIO.LOW)  # Ensure fan is off initially
+    GPIO.output(FAN_PIN, GPIO.LOW)
 
 def get_temp():
     with open("/sys/class/thermal/thermal_zone0/temp") as f:
@@ -22,9 +22,9 @@ def get_temp():
 
 def control_fan(temp):
     if temp >= TEMP_ON:
-        GPIO.output(FAN_PIN, GPIO.HIGH)  # Turn on the fan
+        GPIO.output(FAN_PIN, GPIO.HIGH)
     elif temp <= TEMP_OFF:
-        GPIO.output(FAN_PIN, GPIO.LOW)   # Turn off the fan
+        GPIO.output(FAN_PIN, GPIO.LOW)
 
 if __name__ == "__main__":
     try:
