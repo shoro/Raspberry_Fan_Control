@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-
-# Version: 1.1.7
+# Made By Vlad Sorodoc | email: sorodocul@gmail.com
 
 import time
 import sys
