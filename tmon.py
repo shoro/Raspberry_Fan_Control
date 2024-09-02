@@ -18,3 +18,4 @@ if __name__ == "__main__":
             time.sleep(1)
     except KeyboardInterrupt:
         sys.stdout.write("\n")
+        os.system('clear')
