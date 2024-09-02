@@ -1,1 +1,5 @@
-# Raspberry_Fan_Control
+# Raspberry Fan Control
+
+### Download script
+```
+wget 
