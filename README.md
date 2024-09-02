@@ -51,6 +51,7 @@ if __name__ == "__main__":
         sys.stdout.write("\n")
         os.system('clear')
 ```
+Save & Exit: **_Ctrl+X -> Y -> Enter_**
 
 ### Autorun at startup
 Edit **_'rc.local'_**
