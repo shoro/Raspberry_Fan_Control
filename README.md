@@ -44,7 +44,7 @@ if __name__ == "__main__":
             temp = get_temp()
             os.system('clear')
             control_fan(temp)
-            sys.stdout.write(f"CPU Temp: {temp:.1f} °C\n")
+            sys.stdout.write(f"CPU Temp: {temp:.2f} °C\n")
             sys.stdout.flush()
             time.sleep(1)
     except KeyboardInterrupt:
