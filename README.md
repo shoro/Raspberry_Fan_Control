@@ -2,4 +2,7 @@
 
 ### Download script
 ```
-wget 
+wget https://github.com/shoro/Raspberry_Fan_Control/blob/main/tfan.py
+```
+
+
