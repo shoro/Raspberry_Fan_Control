@@ -20,7 +20,7 @@ Edit **_'rc.local'_**
 sudo nano /etc/rc.local
 ```
 
-### Paste
+### Paste in:
 Make sure to replace 'path' with your path
 ```
 #RPI Fan Control
