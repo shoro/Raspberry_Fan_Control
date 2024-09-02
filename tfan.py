@@ -7,7 +7,7 @@ import os
 import RPi.GPIO as GPIO
 
 # Configuration
-FAN_PIN = 14  # GPIO pin connected to the relay or transistor controlling the fan
+FAN_PIN = 14
 TEMP_ON = 60.0 
 TEMP_OFF = 50.0
 
